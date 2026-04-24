@@ -4,3 +4,10 @@ core
 obj/
 benchlog.*
 user.bazelrc
+
+# wyvrnpm-generated — do not commit
+/build/
+/wyvrn_internal/
+/wyvrn.lock
+/CMakePresets.json
+/CMakeUserPresets.json
