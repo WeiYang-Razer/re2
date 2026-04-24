@@ -1,0 +1,21 @@
+{
+  "name": "re2",
+  "version": "0.0.0.0",
+  "schemaVersion": 2,
+  "kind": "StaticLib",
+  "description": "TODO: one-line description of re2",
+  "dependencies": {},
+  "build": {
+    "system": "cmake",
+    "configs": [
+      "Debug",
+      "Release",
+      "RelWithDebInfo",
+      "MinSizeRel"
+    ],
+    "configure": [
+      "-DRE2_BUILD_TESTING=OFF"
+    ],
+    "installDir": "install"
+  }
+}
